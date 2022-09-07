@@ -1,0 +1,74 @@
+.videoCard {
+  width: 300px;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.videoCard__thumbnail {
+  height: 170px;
+  width: 300px;
+}
+
+.videoCard__info {
+  display: flex;
+  padding-right: 30px;
+  align-items: center;
+}
+
+.videoCard__info > h4 {
+  font-size: 14px;
+  font-weight: 550;
+  margin: 10px 7px 5px 10px;
+}
+
+.videoCard__text {
+  margin-left: 45px;
+}
+
+.videoCard__text > p {
+  color: #606060;
+  font-size: small !important;
+  font-weight: 450;
+}
+
+.videoCard__avatar {
+  height: 35px !important;
+  width: 35px !important;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1136px) {
+  .videoCard {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1135px) {
+  .videoCard {
+    margin: 8px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .videoCard {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 774px) {
+  .videoCard {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .videoCard {
+     margin-left: 45px;
+  }
+
+  .videoCard__thumbnail {
+     width: 325px;
+  }
+}

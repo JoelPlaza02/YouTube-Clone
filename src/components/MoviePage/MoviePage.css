@@ -1,0 +1,33 @@
+.moviePage__sidebar {
+  display: flex;
+}
+
+.moviePage {
+  flex: 0.85;
+  background-color: #f9f9f9;
+  padding: 0 100px 60px 100px;
+}
+
+.movieCardSection,
+.movieCard__free, 
+.movieCard__topSelling, 
+.movieCard__documentary {
+  display: flex;
+}
+
+.movieCard__header {
+  margin: 25px 0;
+}
+
+.movieCard__horizontalRule {
+  color: lightgray;
+  margin-top: 30px;
+  opacity: .3;
+}
+
+
+@media screen and (max-width: 615px) {
+  .moviePage {
+    padding: 0 80px 40px 80px;
+  }
+}

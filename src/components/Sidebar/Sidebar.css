@@ -1,0 +1,24 @@
+.sidebar {
+  flex: 0.15;
+}
+
+.sidebar > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar__exploreHeader {
+  color: #606060;
+  font-size: 15px;
+  font-weight: 550;
+  margin-left: 20px;
+}
+
+@media (max-width: 615px) {
+  .sidebar {
+    display: none;
+  }
+}

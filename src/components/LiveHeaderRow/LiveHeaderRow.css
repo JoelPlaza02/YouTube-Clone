@@ -1,0 +1,96 @@
+.liveHeaderRow {
+  background-color: #f9f9f9;
+  align-items: center;
+  padding: 10px 100px 10px 100px;
+}
+
+.liveHeaderRow__top, 
+.liveHeaderRow__left, 
+.liveHeaderRow__category {
+  display: flex;
+  align-items: center;
+}
+
+.liveHeaderRow__top {
+  justify-content: space-between;
+}
+
+.liveHeaderRow__image {
+  width: 85px;
+  border-radius: 50%;
+}
+
+.liveHeaderRow__info {
+  margin-left: 25px;
+}
+
+.liveHeaderRow__info > h4  {
+  font-size: 25px;
+  font-weight: 475;
+}
+
+.liveHeaderRow__info > p {
+  color: #737373;
+  font-size: 13px;
+}
+
+.liveHeaderRow__right {
+  align-items: center;
+}
+
+.liveHeaderRow__button {
+  background-color: #dd2c00;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.liveHeaderRow__category {
+  color: #606060;
+  font-size: 14px;
+  font-weight: 525;
+  margin-top: 20px;
+}
+
+.liveHeaderRow__selected {
+  color: black;
+  font-size: 14px;
+  font-weight: 525;
+  margin-right: 5em;
+  white-space: nowrap;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.liveHeaderRow__selected::after {
+  content: "";
+  position: relative;
+  display: block;
+  left: 1;
+  top: 10px;
+  width: 7.5em;
+  height: 2.5px;
+  background-color: #606060;
+}
+
+
+/* Media Query Section */
+@media screen and (max-width: 845px) {
+  .liveHeaderRow {
+    padding: 17px 50px;
+  }
+}
+
+@media screen and (max-width: 681px) {
+  .liveHeaderRow {
+    padding: 17px 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .liveHeaderRow {
+    padding: 17px 20px;
+  }
+}

@@ -1,0 +1,53 @@
+.livePage__videoSection {
+  background-color: #edecec;
+  cursor: pointer;
+  padding: 10px 100px 40px 100px;
+  flex-wrap: wrap;
+}
+
+.livePage__header {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 25px 0;
+}
+
+.livePage__header > h4 {
+  font-weight: 525;
+  margin-right: 20px;
+}
+
+.livePage__header > p {
+  color: #606060;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 525;
+}
+
+.livePage__playIcon {
+  margin-right: 10px;
+}
+
+.livePage__featured {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.livePage__hr, .liveNow__hr {
+  color: lightgray;
+  opacity: 0.3;
+}
+
+.liveNow__header, .liveRecent__header {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 25px 0;
+}
+
+.liveNow__header > h4, .liveRecent__header > h4 {
+  font-weight: 525;
+} 
+
+.liveNow__hr {
+  margin-top: 65px;
+}

@@ -1,0 +1,38 @@
+.liveRecentCardRow__card {
+  cursor: pointer;
+  margin-right: 30px;
+  margin-bottom: 35px;
+}
+
+.liveRecentCardRow__image > img {
+  width: 235px;
+  object-fit: contain;
+}
+
+.liveRecentCardRow__info {
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.liveRecentCardRow__titleRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.liveRecentCardRow__title {
+  width: 190px;
+  font-size: 14px;
+  font-weight: 525;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+.liveRecentCardRow__channel, .liveRecentCardRow__views {
+  color: #606060;
+  font-size: 12px;
+  font-weight: 525;
+}
+
+.liveRecentCardRow__channel {
+  margin-bottom: 3px;
+}

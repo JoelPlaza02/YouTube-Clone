@@ -1,0 +1,41 @@
+.gamingShorts {
+  cursor: pointer;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.gamingShorts__image {
+  width: 100%;
+}
+
+.gamingShorts__image > img {
+  width: 210px;
+  height: 310px;
+}
+
+.gamingShorts__info {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.gamingShorts__titleRow {
+  display: flex;
+}
+
+.gamingShorts__title {
+  width: 190px;
+  font-size: 14px;
+  font-weight: 525;
+  margin-bottom: 4px;
+}
+
+.gamingShorts__views {
+  color: #606060;
+  font-size: 12px;
+}

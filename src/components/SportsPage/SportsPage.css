@@ -1,0 +1,30 @@
+.sportsPage {
+  cursor: pointer;
+  flex-wrap: wrap;
+  padding: 10px 100px 40px 100px;
+}
+
+.sportsMLBSection, .sportsCardSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sportsPage__header {
+  display: flex;
+  align-items: center;
+  margin: 25px 0 25px 0;
+}
+
+.sportsPage__header > h4 {
+  font-size: 20px;
+  font-weight: 490;
+}
+
+.sportsPage__hr {
+  
+  margin-bottom: 45px;
+}
+
+.sportsCardSection {
+  margin-top: 50px;
+}

@@ -1,0 +1,65 @@
+.gamingHeader {
+  display: flex;
+  background-color: #f9f9f9;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px 10px 55px;
+}
+
+.gamingHeader__left {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.gamingHeader__image {
+  width: 85px;
+  border-radius: 50%;
+}
+
+.gamingHeader__info {
+  margin-left: 25px;
+}
+
+.gamingHeader__channel {
+  font-size: 25px;
+  font-weight: 475;
+}
+
+.gamingHeader__subs {
+  color: #737373;
+  font-size: 13.5px;
+  font-weight: 500;
+}
+
+.gamingHeader__right {
+  align-items: center;
+}
+
+.gamingHeader__button {
+  background-color: #dd2c00;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+/* Media Query Section */
+@media screen and (max-width: 845px) {
+  .gamingHeader {
+    padding: 17px 50px;
+  }
+}
+
+@media screen and (max-width: 681px) {
+  .gamingHeader {
+    padding: 17px 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gamingHeader {
+    padding: 17px 20px;
+  }
+}

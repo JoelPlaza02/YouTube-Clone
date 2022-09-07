@@ -1,0 +1,27 @@
+.downloadRow {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fbf8f8;
+  padding: 60px;
+  justify-content: center;
+}
+
+.downloadRow__left, .downloadRow__center, .downloadRow__right {
+  width: 350px;
+  text-align: center;
+  margin: 20px;
+}
+
+.downloadRow__image {
+  width: 80px;
+}
+
+.downloadRow__title {
+  font-size: 30px;
+  font-weight: 450;
+}
+
+.downloadRow__desc {
+  color: #606060;
+  font-size: 16px;
+}

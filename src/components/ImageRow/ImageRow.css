@@ -1,0 +1,8 @@
+.imageRow {
+  width: 100%;
+}
+
+.imageRow__image {
+  width: 100vw;
+  height: 75vh;
+}

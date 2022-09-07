@@ -1,0 +1,30 @@
+.gamingCardRow {
+  cursor: pointer;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.gamingCard__image > img {
+  width: 200px;
+}
+
+.gamingCard__info {
+  margin-top: 5px;
+}
+
+.gamingCard__title {
+  font-size: 14.5px;
+  font-weight: 550;
+  margin-bottom: 4px;
+}
+
+.gamingCard__desc {
+  color: #606060;
+  font-size: 12px;
+}

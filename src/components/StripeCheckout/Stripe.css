@@ -1,0 +1,72 @@
+.stripeCheckout {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.stripeCheckout__header {
+  margin: 40px 0 40px 0;
+}
+
+.stripeCheckout__image {
+  max-width: 100%;
+  object-fit: contain;
+  margin-bottom: 25px;
+}
+
+.stripeCheckout__header > h1 {
+  font-size: xx-large !important;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+
+.stripeCheckout__header > h3 {
+  font-size: x-large !important;
+  font-weight: 400;
+  margin: 20px 0 20px 0;
+}
+
+.stripeCheckout__text {
+  color: rgb(89, 88, 88);
+  font-size:  16px;
+  line-height: 27px; 
+  margin-bottom: 10px;
+}
+
+.stripeCheckout__black {
+   font-size: 14px;
+   line-height: 45px;
+}
+
+.stripeCheckout__blue {
+  color: rgb(72, 111, 185);
+}
+
+.stripeCheckout__lightBlue {
+  color: rgb(20, 81, 193);
+  font-weight: 550;
+}
+
+
+@media screen and (max-width: 675px) {
+  .stripeCheckout__image {
+    width: 400px;
+  }
+
+  .stripeCheckout__header > h1 {
+    font-size: large !important;
+    margin-bottom: 10px;
+  }
+
+  .stripeCheckout__header > h3 {
+    font-size: medium !important;
+    font-weight: 400;
+  }
+
+  .stripeCheckout__text {
+    font-size: 10px;
+  }
+
+  .stripeCheckout__black {
+    font-size: 9px;
+ }
+}

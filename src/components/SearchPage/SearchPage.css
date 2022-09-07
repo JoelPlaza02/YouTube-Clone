@@ -1,0 +1,41 @@
+.searchPageContainer {
+  display: flex;
+}
+
+.search__page {
+  flex: 0.85;
+  background-color: #f9f9f9;
+  padding: 0 80px;
+}
+
+.searchPage__filter {
+  display: flex;
+  align-items: center;
+  color: #606060;
+  font-size: xx-small !important;
+  gap: .7em;
+}
+
+.searchPage__filter:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.search__page > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+}
+
+.videoRow__header {
+  font-size: medium !important;
+  font-weight: 525;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .search__page {
+    padding: 0 25px;
+  }
+}

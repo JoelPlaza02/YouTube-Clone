@@ -1,0 +1,40 @@
+.movieCategoryRow {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.movieCategoryRow__options {
+  display: flex;
+  margin: 5px 0;
+}
+
+.movieCategory__title, .movieCategory__titleSelected {
+  color: #606060;
+  font-size: 14px;
+  font-weight: 525;
+  margin-right: 5em;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.movieCategory__titleSelected {
+  color: black;
+  text-align: center;
+}
+
+.movieCategory__titleSelected::after {
+  content: "";
+  position: relative;
+  display: block;
+  left: 1;
+  top: 10px;
+  width: 9em;
+  height: 2.5px;
+  background-color: #606060;
+}
+
+.movieCategory__title:hover {
+  color: black;
+  cursor: pointer;
+}

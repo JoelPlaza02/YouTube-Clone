@@ -1,0 +1,52 @@
+.gamingRecommendedCard {
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.gamingRecommendedCard__image {
+  width: 100%;
+}
+
+.gamingRecommendedCard__image > img {
+  width: 232px;
+}
+
+.gamingRecommendedCard__info {
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.gamingRecommendedCard__titleRow {
+  display: flex;
+}
+
+.gamingRecommendedCard__title {
+  width: 200px;
+  display: flex;
+  font-size: 13.5px;
+  font-weight: 525;
+  margin-bottom: 10px;
+}
+
+.gamingRecommendedCard__options {
+  font-size: x-large !important;
+}
+
+.gamingRecommendedCard__channel {
+  color: #606060;
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  gap: 0.3em;
+  margin-bottom: 2px;
+}
+
+.gamingRecommendedCard__verified {
+  font-size: small !important;
+}
+
+.gamingRecommendedCard__views {
+  color: #606060;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
