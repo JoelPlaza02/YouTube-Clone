@@ -57,7 +57,6 @@ const SportsPage = () => {
                 timestamp='1 month'
             />
             </div>
-            {/*<hr className='sportsPage__hr' />*/}
             <div className='sportsCardSection'>
             <SportsCardRecommended
                 image='https://i.ytimg.com/vi/pE0QyFSWK2U/maxresdefault.jpg'
