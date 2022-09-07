@@ -8,7 +8,6 @@ import StripePage from './components/StripePage/StripePage';
 import MoviePage from './components/MoviePage/MoviePage';
 import GamingPage from './components/GamingPage/GamingPage';
 import LivePage from './components/LivePage/LivePage';
-import SportsPage from './components/SportsPage/SportsPage';
 
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
             <Route path="/movies" element={<MoviePage />} />
             <Route path="/gaming" element={<GamingPage />} />
             <Route path="/live" element={<LivePage />} />
-            <Route path="/sports" element={<SportsPage />} />
         </Routes>
     </>
   );

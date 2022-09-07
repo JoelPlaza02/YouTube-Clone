@@ -14,7 +14,6 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import LocalMoviesIcon from '@mui/icons-material/LocalMovies';
 import GamingIcon from '@mui/icons-material/SportsEsports';
 import LiveIcon from '@mui/icons-material/Sensors';
-import SportsIcon from '@mui/icons-material/EmojiEvents';
 
 
 const Sidebar = () => {
@@ -41,9 +40,6 @@ const Sidebar = () => {
           </Link>
           <Link style={{textDecoration: 'none', color: 'black'}} to="/live">
              <SideBarRow Icon={LiveIcon} title='Live' />
-          </Link>
-          <Link style={{textDecoration: 'none', color: 'black'}} to="/sports">
-             <SideBarRow Icon={SportsIcon} title='Sports' />
           </Link>
        </div>
      </>
